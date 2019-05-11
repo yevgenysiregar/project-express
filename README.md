@@ -1,7 +1,7 @@
 # Project Express
 
-This is my Project Express
+This is my Project Express.
 
 ## Objectives
 
-To learn basic express
+To learn basic express.
