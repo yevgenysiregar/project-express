@@ -6,11 +6,12 @@
   "author": "Yevgeny Omar Siregar <siregar.yevgeny@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "private": true,
   "dependencies": {
+    "cors": "2.8.5",
     "express": "4.16.4"
   },
   "devDependencies": {

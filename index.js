@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const bodyParser = require("body-parser"); //to access body request, it's a must to be imported
+const cors = require("cors");
 const port = 3000;
 
 const todoList = [
@@ -18,6 +19,7 @@ const todoList = [
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+app.use(cors());
 
 // get new data
 app.get("/", (req, res) => res.send(todoList));
