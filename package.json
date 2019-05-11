@@ -1,0 +1,19 @@
+{
+  "name": "project-express",
+  "version": "1.0.0",
+  "description": "project express",
+  "main": "index.js",
+  "author": "Yevgeny Omar Siregar <siregar.yevgeny@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "private": true,
+  "dependencies": {
+    "express": "4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "1.19.0"
+  }
+}
